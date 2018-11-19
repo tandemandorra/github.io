@@ -3,9 +3,42 @@
   <link rel="stylesheet" href="styles.css">
   <ul>
   <li><a href="#">Prepagament</a></li>
+    <li><img src="images/logo.png" alt="Andorra Telecom" style="width:50px;height:50px;"></li>
 </ul>
 </head>
 <body>
-  <h1> Confirma la compra</h1>
+  <br></br>
+  <form action="/targeta_credit.html" method="get">
+    <div>
+        <h3>Insertar foto Passaport o DNI</h3>
+    </div>
+    <div>
+        <label for="nom">Examinar:</label>
+        <input type="button" id="examine" />
+    </div>
+    <div>
+      <img src="images/passaport.png" alt="Andorra Telecom" height="30%" width="100%">
+    </div>
 
+  <div>
+    <h3>Punts de recollida</h3>
+  <input type="checkbox" name="Pyrenees" value="Pyrenees"> Alta Riba (Pyrenees)<br>
+  </div>
+  <div>
+  <input type="checkbox" name="2000" value="2000"> Andorra 2000<br>
+  </div>
+  <div>
+  <input type="checkbox" name="Andorra_Turisme" value="Andorra_Turisme"> Andorra Turisme<br>
+  </div>
+  <div>
+  <input type="checkbox" name="Botiga_Orly" value="Botiga_Orly"> Botiga Orly<br>
+  </div>
+  <div>
+  <h5 align = "center"> Etc...</h5>
+  </div>
+  <div class="button">
+  <button type="submit">Continuar</button>
+  </div>
+
+  </form>
 </body>
