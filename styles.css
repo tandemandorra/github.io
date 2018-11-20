@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20;
     overflow: hidden;
     background-color: #d40072;
 }
@@ -16,6 +16,7 @@ body{
 li {
     float: left;
     font-size: large;
+    text-align: center;
 }
 
 li a {
